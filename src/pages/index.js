@@ -6,12 +6,12 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout2';
 import { Section } from '../styles/GlobalComponents';
-import Dslayer from './Dslayer/Dslayer';
+import Anbu from './Anbu/Anbu';
 
 const App = () => {
   return (
     <Layout>
-      <Dslayer/>
+      <Anbu/>
     </Layout>
   );
 };

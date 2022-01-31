@@ -1,8 +1,8 @@
 export default {
   // Temp fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "Big Shoulders Display",
+    main: "Big Shoulders Display"
   },
   // Colors for layout
   colors: {

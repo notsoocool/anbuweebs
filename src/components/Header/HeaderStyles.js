@@ -22,6 +22,9 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  margin-left:45%;
+  font-size: 2.4rem;
+  padding-top:1%;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
@@ -30,6 +33,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  padding-left: 9%;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -44,7 +48,14 @@ export const Div3 = styled.div`
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
-
+export const Circle = styled.div`
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: #888;
+  border-radius: 50%;
+  margin-left: 50%;
+  }
+`;
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
