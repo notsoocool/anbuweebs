@@ -11,6 +11,10 @@ if required*
 ```js
 npm audit fix --force
 ```
+to run
+```js
+npm run dev
+```
 
 5. Deploy it on heroku.
 
