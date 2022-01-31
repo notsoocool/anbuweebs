@@ -15,6 +15,3 @@ to run
 ```js
 npm run dev
 ```
-
-5. Deploy it on heroku.
-
