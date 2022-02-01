@@ -48,12 +48,28 @@ export const Div3 = styled.div`
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
-export const Circle = styled.div`
-  height: 2.4rem;
-  width: 2.4rem;
-  background-color: #888;
-  border-radius: 50%;
+export const Circle = styled.img`
+  height: 2%;
+  width: 2%;
   margin-left: 50%;
+  }
+`;
+export const Circle2 = styled.img`
+  position: absolute;
+  width: 6%;
+  z-index: -1;
+  margin-top: -4%;
+  margin-left: 2.6%;
+  }
+`;
+export const Rec = styled.div`
+    position: absolute;
+    height: 100%;
+    margin-left: 7%;
+    width: 38%;
+    background-color: white;
+    z-index:-1;
+    overflow: hidden;
   }
 `;
 // Navigation Links
