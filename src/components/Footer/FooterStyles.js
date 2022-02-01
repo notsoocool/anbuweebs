@@ -1,5 +1,10 @@
 import styled from "styled-components"
 
+export const Main = styled.div`
+  padding-top: 1.1%;
+  }
+`
+
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
   max-width: 1040px;
