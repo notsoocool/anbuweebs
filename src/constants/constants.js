@@ -5,6 +5,7 @@ export const animes = [
     image: '/images/tanjiro.png',
     rc: '/images/rightc/blue.svg',
     colour: '#1473E7',
+    recb: '/images/box/blue.svg',
     id: 0,
   },
   {

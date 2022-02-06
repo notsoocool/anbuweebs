@@ -43,6 +43,27 @@ export const Animeage2 = styled.img`
   transform: rotate(180deg);
 }
 `;
+export const Name = styled.a`
+  position: absolute;
+  margin-top: 15%;
+  font-size: 6rem;
+  font-weight: bold;
+}
+`;
+export const Des = styled.a`
+  position: absolute;
+  margin-top: 20%;
+  font-size: 3rem;
+  color: #1473E7;
+}
+`;
+export const Rec = styled.img`
+  position: fixed;
+  width: 27%;
+  margin: 12%;
+  margin-top: 38%;
+
+`;
 /* export const Main = styled.div`
   margin-bottom: 2%;
 }
